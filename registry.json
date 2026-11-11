@@ -1,0 +1,73 @@
+{
+  "name": "shared-agent-skills",
+  "version": "0.1.0",
+  "core": "core/CORE.md",
+  "adapters": [
+    "codex",
+    "claude-code",
+    "cursor",
+    "chatgpt"
+  ],
+  "skills": [
+    {
+      "id": "task-planning",
+      "description": "Plan multi-step work with dependencies, bounded scope, and observable acceptance criteria.",
+      "path": "skills/task-planning/SKILL.md",
+      "version": "0.1.0"
+    },
+    {
+      "id": "evidence-research",
+      "description": "Research technical or product questions with traceable sources and explicit uncertainty.",
+      "path": "skills/evidence-research/SKILL.md",
+      "version": "0.1.0"
+    },
+    {
+      "id": "scoped-implementation",
+      "description": "Implement a feature or refactor within an existing codebase while preserving unrelated work.",
+      "path": "skills/scoped-implementation/SKILL.md",
+      "version": "0.1.0"
+    },
+    {
+      "id": "systematic-debugging",
+      "description": "Diagnose reproducible failures and verify a targeted fix using evidence.",
+      "path": "skills/systematic-debugging/SKILL.md",
+      "version": "0.1.0"
+    },
+    {
+      "id": "code-review",
+      "description": "Review a concrete patch for actionable correctness, security, and regression defects.",
+      "path": "skills/code-review/SKILL.md",
+      "version": "0.1.0"
+    },
+    {
+      "id": "test-design",
+      "description": "Design and run behavior-focused tests for changed contracts and meaningful failure modes.",
+      "path": "skills/test-design/SKILL.md",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ui-quality",
+      "description": "Implement or audit visible UI against an established design system and actual rendered behavior.",
+      "path": "skills/ui-quality/SKILL.md",
+      "version": "0.1.0"
+    },
+    {
+      "id": "api-design",
+      "description": "Design or review API contracts for compatibility, validation, errors, and reliable retries.",
+      "path": "skills/api-design/SKILL.md",
+      "version": "0.1.0"
+    },
+    {
+      "id": "technical-documentation",
+      "description": "Write or update technical documentation grounded in actual behavior and verified examples.",
+      "path": "skills/technical-documentation/SKILL.md",
+      "version": "0.1.0"
+    },
+    {
+      "id": "release-delivery",
+      "description": "Validate and publish an explicitly authorized release with traceable artifacts and verification.",
+      "path": "skills/release-delivery/SKILL.md",
+      "version": "0.1.0"
+    }
+  ]
+}
